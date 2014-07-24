@@ -1,0 +1,27 @@
+{
+    "name": "nh-gear/lyst",
+    "description": "extended array object replacement for php 5.4 or higher",
+    "keywords": [ "array", "arrayobject" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Kaschubowski",
+            "email": "nihylum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gear\\Lyst\\": "."
+        },
+        "files": [ "./Support/global-alias.php" ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
